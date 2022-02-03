@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anand World</title>
+    <style>
+        .progress {
+            background-color: red;
+            height: 3px;
+            animation: load 1s ease-in-out 1;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        .pic {
+            display: flex;
+            align-items: center;
+        }
+
+        .pic img {
+            width: 45px;
+            padding: 12px 18px;
+            border-radius: 500px;
+        }
+
+        header {
+            height: 66px;
+            background: silver;
+            color: black;
+        }
+
+        ul li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        ul li {
+            display: inline-block;
+            margin: 9px 2px;
+            padding-inline-start: 12px;
+        }
+
+        tr td img {
+            height: 234px;
+            display: block;
+            padding: 13px 15px;
+            margin: 7px 8px;
+            border-radius: 999px;
+        }
+
+
+        .link ul li a {
+            color: black;
+        }
+        .link ul li{
+            display: block;
+        }
+
+        @keyframes load {
+            0% {
+                width: 0;
+            }
+
+            70% {
+                width: 60vw;
+            }
+
+            100% {
+                width: 100vw;
+            }
+        }
+        footer{
+            height: 10vh;
+            background-color: silver;
+            color: black;
+        }
+        .flex-all-center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="progress"></div>
+    <tbody>
+        <table>
+            <header>
+                <nav>
+                    <div class="pic">
+                        <img src="pic.png.jpg" class="rounded h-12" alt="My picture">
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="home.html"> Home</a>
+                        </li>
+                        <li>About</li>
+                        <li>
+                            <a href="contact.html"> Contact </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <tr>
+                <td>
+                    <img src="logo.png.jpeg" width="180" alt="My Channel Logo">
+                </td>
+                <td>
+                    <h1>Yash Anand</h1>
+                    <p>
+                        <em>
+                            <strong>Go to Anand World Youtube channel</strong>
+                            <a href=" https://www.youtube.com/channel/UC7FCtbTCShsbCwvzkIV27oQ">Click here</a>
+                        </em>
+                    </p>
+                    <p>I am web developer</p>
+                </td>
+            </tr>
+        </table>
+    </tbody>
+    <h2>Education</h2>
+    <p>
+        I am pursing CSE from GBU
+        <br>
+
+    </p>
+    <hr>
+    <h3> Here You Find Video</h3>
+    <div class="link">
+        <ul type="circle">
+            <li>
+                <a href="https://youtu.be/TRIEnMV7UgU ">open First video</a>
+            </li>
+            <li>
+                <a href="https://youtu.be/6X2tb2kts84"> open Second video</a>
+            </li>
+        </ul>
+    </div>
+    <hr>
+    <h4> SKILL</h4>
+    <table>
+        <tbody>
+            <tr>
+                <td> HTML</td>
+                <td>⭐⭐⭐⭐⭐ </td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>⭐⭐⭐⭐⭐ </td>
+            </tr>
+            <tr>
+                <td>C++</td>
+                <td>⭐</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>⭐</td>
+            </tr>
+        </tbody>
+    </table>
+    <footer class="flex-all-center">
+        <p> copyright &copy; MyCart.com</p>
+    </footer>
+</body>
+
+</html>

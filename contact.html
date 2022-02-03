@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact me</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        .progress {
+            background-color: red;
+            height: 3px;
+            animation: load 1s ease-in-out 1;
+        }
+
+        header {
+            height: 66px;
+            background: silver;
+            color: black;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        .pic img {
+            width: 45px;
+            padding: 12px 18px;
+            border-radius: 500px;
+        }
+
+        ul li {
+            display: inline-block;
+            margin: 9px 2px;
+            padding-inline-start: 12px;
+        }
+
+        ul li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .link ul li a {
+            color: black;
+        }
+
+        @keyframes load {
+            0% {
+                width: 0;
+            }
+
+            70% {
+                width: 60vw;
+            }
+
+            100% {
+                width: 100vw;
+            }
+        }
+
+        form {
+            background-color: springgreen;
+            padding: 108px 121px;
+            margin: 45px 224px;
+            border-radius: 325px;
+        }
+        footer{
+            height: 10vh;
+            background-color: silver;
+            color: black;
+        }
+        .flex-all-center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="progress"></div>
+    <header>
+        <nav>
+            <div class="pic">
+                <img src="pic.png.jpg" class="rounded h-12" alt="My picture">
+            </div>
+            <ul>
+                <li>
+                    <a href="home.html"> Home</a>
+                </li>
+                <li>About</li>
+                <li>
+                    <a href="contact.html"> Contact </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <p class="center"> Email Id :- ya8591826@gmail.com</p>
+        <div class="yaa">
+            <form>
+                <lable>Enter Your Name :</lable>
+                <input type="text" name value>
+                <br>
+                <lable>Passward</lable>
+                <input type="pasward" name value>
+                <br>
+                <lable>Male</lable>
+                <input type="checkbox" name value>
+                <lable>Female</lable>
+                <input type="checkbox" name value>
+                <br>
+                <lable>Massage</lable>
+                <br>
+                <textarea name="name" row="8" cols="30"></textarea>
+                <br>
+                <input type="submit" name>
+            </form>
+        </div>
+    </div>
+    <footer class="flex-all-center">
+        <p> copyright &copy; MyCart.com</p>
+    </footer>
+</body>
+
+</html>
